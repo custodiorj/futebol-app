@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+        crossorigin="anonymous" />
+    <title>Monte seu time</title>
+</head>
+<body>
+    <div class="container">
+        <div class="insert-data">
+            <form id="new-player">
+                <h2>Adicione o seu jogador</h2>
+                <input class="text-input" type="text" name="text" placeholder="Nome do jogador">
+                <input class="text-input" type="number" name="number" placeholder="Numero do jogador">
+                <label for="posicao">Selecione a posicao</label>
+                <select name="pos" id="pos">
+                    <option value="GL">Goleiro</option>
+                    <option value="LE">Lateral Esquerdo</option>
+                    <option value="LD">Lateral Direito</option>
+                    <option value="ZE">Zagueiro Esquerdo</option>
+                    <option value="ZD">Zagueiro Direito</option>
+                    <option value="ME">Meia Esquerda</option>
+                    <option value="MD">Meia direita</option>
+                    <option value="VOLE">Volante Esquerdo</option>
+                    <option value="VOLD">Volante Direito</option>
+                    <option value="AE">Atacante Esquerdo</option>
+                    <option value="AD">Atacante Direito</option>
+                </select>
+                <button class="button">Enviar</button>
+            </form>
+        </div>
+        <div class="card">
+            <div class="camp-image" style="background-image:url(images/campoFutebol.jpg)"></div>
+        </div>
+        
+
+        <div class="manage-data">
+            <div class="header">
+                <div class="number">N</div>
+                <div class="player-name">Nome do Jogador</div>
+                <div class="posi">Posicao</div>
+            </div>
+            <div id="playerInf" class="player-inf">
+
+            </div>
+        </div>
+    </div>
+    <script src="players-functions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
