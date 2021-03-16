@@ -17,10 +17,15 @@ document.querySelector('#new-player').addEventListener('submit', (event) => {
         })
         id++
       }
+      
     } else {
         return alert("Entre com uma inf")
     }
 
+    
+    
+    
     savePlayers(players);
     renderPlayers(players);
+    
 })
