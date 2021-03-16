@@ -21,10 +21,6 @@ body {
     height: 100vh;
 }
 
-.insert-data {
-
-}
-
 #new-player {
     background-color: #fff;
     display: flex;
@@ -39,11 +35,13 @@ body {
 }
 
 .card {
+    position: relative;
     height: 750px;
     border: 5px solid;
 }
 
 .camp-image {
+    
     height: 100%;
     width: 550px;
     background-size: cover;
@@ -101,4 +99,66 @@ body {
 
 .player-position {
     width: 41px;
+}
+
+.camisa {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.goleiro {
+    left: 225px;
+    bottom: 5px;
+}
+
+.lateral-esquerdo {
+    bottom: 200px;
+}
+
+.lateral-direito {
+    bottom: 200px;
+    right: 1px;
+}
+
+.zagueiro-esquerdo {
+    bottom: 120px;
+    left: 150px;
+}
+
+.zagueiro-direito {
+    bottom: 120px;
+    right: 150px;
+}
+
+.meia-esquerda {
+    bottom: 400px;
+}
+
+.meia-direita {
+    bottom: 400px;
+    right: 1px;
+}
+
+.volante-esquerdo {
+    bottom: 320px;
+    left: 150px;
+}
+
+.volante-direito {
+    bottom: 320px;
+    right: 150px;
+}
+
+.atacante-esquerdo {
+    top: 40px;
+    left: 150px;
+}
+
+.atacante-direito {
+    top: 40px;
+    right: 150px;
 }
